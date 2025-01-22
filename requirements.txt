@@ -8,7 +8,7 @@ plotly>=5.15.0
 streamlit>=1.25.0 
 streamlit>=1.25.0
 pandas>=2.0.0
-matplotlib>=3.7.0  # Alternativa a turtle
+matplotlib>=3.7.0  
 
 
 # Herramientas de desarrollo
@@ -20,3 +20,4 @@ jupyterlab>=4.0.0
 nltk>=3.8.0
 spacy>=3.6.0
 fpdf
+nltk

@@ -1,6 +1,8 @@
 import re 
+import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from collections import Counter
+nltk.download('punkt')  # Descargar el recurso si no está presente
 
 
 def limpiar_subtitulos(texto):

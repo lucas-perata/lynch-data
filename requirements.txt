@@ -19,3 +19,4 @@ jupyterlab>=4.0.0
 # Procesamiento de texto (si aplica)
 nltk>=3.8.0
 spacy>=3.6.0
+fpdf

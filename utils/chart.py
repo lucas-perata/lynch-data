@@ -1,4 +1,3 @@
-from turtle import st
 import pandas as pd
 import plotly.graph_objects as go
 from data.constants import data

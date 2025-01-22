@@ -78,7 +78,7 @@ else:
     st.error("⚠️ Directorio de guiones no disponible")
 
 st.markdown("---")
-st.header("🎬 Quizz Lynchiano")
+st.header("🎬 Quiz Lynchiano")
 st.caption("Demuestra tu conocimiento sobre el universo cinematográfico de David Lynch")
 ejecutar_quiz()
 st.markdown("---")

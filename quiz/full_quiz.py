@@ -80,7 +80,7 @@ def ejecutar_quiz():
             </div>
             """, unsafe_allow_html=True)
 
-            if st.form_submit_button("🔄 Reiniciar quiz", use_container_width=True):
+            if st.button("🔄 Reiniciar quiz", use_container_width=True):
                 for key in state_keys:
                     st.session_state.pop(key, None)
                 st.rerun()
